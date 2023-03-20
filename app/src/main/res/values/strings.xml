@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">E_Rool</string>
+    <string name="simplifier_vos_course">Simplifier vos courses</string>
+    <string name="textBienvenue">Utiliser cette application pour avoir accès à des services de transport adaptés à notre époque.</string>
+    <string name="se_connecter">SE CONNECTER</string>
+    <string name="creer_compte">Créer un compte?</string>
+    <string name="continuer">Continuer</string>
+    <string name="email_adresse">Adresse email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="repete_mot_de_passe">Répéter votre mot de passe</string>
+    <string name="conseil_mot_de_passe">+ 8 caractères</string>
+    <string name="genere_mot_de_passe">Générer un mot de passe</string>
+    <string name="question">Avez-vous déjà un compte?</string>
+    <string name="petit_se_connecter">Se connecter</string>
+    <string name="title_createCompte">Création d un compte</string>
+    <string name="nomComptlet">Nom complet</string>
+    <string name="nom_Utilisateur">Nom d utilisateur</string>
+    <string name="pays">Pays</string>
+    <string name="date_anniversaie">Date d anniversaire</string>
+    <string name="male">Male</string>
+    <string name="femele">Femele</string>
+    <string name="nomtilisateur">Nom d utilisateur</string>
+    <string name="adresse">Adresse</string>
+    <string name="telephone">Téléphone</string>
+    <string name="bioconducteur">Bio du conducteur</string>
+    <string name="creerProfil">CRÉER VOTRE COMPTE</string>
+    <string name="motdepasseOublier">Mot de passe oublié?</string>
+
+
+
+
+</resources>

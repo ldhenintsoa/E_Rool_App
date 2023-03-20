@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "438468223815",
+    "project_id": "e-rool",
+    "storage_bucket": "e-rool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438468223815:android:1cba213b4ade033fb86262",
+        "android_client_info": {
+          "package_name": "mg.pearl.e_rool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438468223815-ochemdofr9tjdkh2um7plra6ntd103ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYrnfadvPBAPt1X1JbWOqTdS6Qif4QV-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438468223815-ochemdofr9tjdkh2um7plra6ntd103ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
