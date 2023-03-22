@@ -1,5 +1,5 @@
 
-package mg.pearl.e_rool.sceen
+package mg.pearl.e_rool.screen
 import android.widget.Toast
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">E_Rool</string>
+    <string name="app_name">ErooL App</string>
     <string name="simplifier_vos_course">Simplifier vos courses</string>
     <string name="textBienvenue">Utiliser cette application pour avoir accès à des services de transport adaptés à notre époque.</string>
     <string name="se_connecter">SE CONNECTER</string>
@@ -17,8 +17,8 @@
     <string name="nom_Utilisateur">Nom d utilisateur</string>
     <string name="pays">Pays</string>
     <string name="date_anniversaie">Date d anniversaire</string>
-    <string name="male">Male</string>
-    <string name="femele">Femele</string>
+    <string name="male">Mâle</string>
+    <string name="femelle">Femelle</string>
     <string name="nomtilisateur">Nom d utilisateur</string>
     <string name="adresse">Adresse</string>
     <string name="telephone">Téléphone</string>

@@ -1,4 +1,4 @@
-package mg.pearl.e_rool.sceen
+package mg.pearl.e_rool.screen
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*

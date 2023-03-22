@@ -8,6 +8,7 @@ fun getDataUserCurrentFromFireBase(context:Context,utilisateurCurrent:Utilisateu
     db.collection("Utilisateur").get().addOnSuccessListener { utilisateur ->
         for (document in utilisateur) {
             if (idUser.idUserCurrent==document.id){
+                Toast.makeText(context, "Chargement des données en cours!!!", Toast.LENGTH_SHORT).show()
                 utilisateurCurrent.adresseEmail= "${document.data["adresseEmail"]}"
                 utilisateurCurrent.motDePasse="${document.data["motDePasse"]}"
                 utilisateurCurrent.nomComplet="${document.data["nomComplet"]}"

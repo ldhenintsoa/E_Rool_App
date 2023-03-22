@@ -1,4 +1,4 @@
-package mg.pearl.e_rool.sceen
+package mg.pearl.e_rool.screen
 import android.app.DatePickerDialog
 import android.widget.DatePicker
 import androidx.compose.foundation.BorderStroke
@@ -51,7 +51,7 @@ fun CreerCompteScreen2(
     val genre = if (colorMaleButton.value==buttonBackgroundColor)
         "Male"
     else if (colorFemeleButton.value==buttonBackgroundColor)
-        "Femele"
+        "Femelle"
     else
         "None"
 
@@ -229,7 +229,7 @@ fun CreerCompteScreen2(
                         .width(120.dp)
                         .height(50.dp)
                 ) {
-                    Text( stringResource(id = R.string.femele),fontSize = 25.sp,color=colorFemeleText.value)
+                    Text( stringResource(id = R.string.femelle),fontSize = 25.sp,color=colorFemeleText.value)
                 }
 
 

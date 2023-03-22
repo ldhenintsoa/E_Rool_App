@@ -1,4 +1,4 @@
-package mg.pearl.e_rool.sceen
+package mg.pearl.e_rool.screen
 
 import android.widget.Toast
 import androidx.compose.foundation.Image
@@ -23,7 +23,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.google.firebase.firestore.FirebaseFirestore
 import mg.pearl.e_rool.R
+import mg.pearl.e_rool.data.getDataUserCurrentFromFireBase
 import mg.pearl.e_rool.data.idUser
+import mg.pearl.e_rool.data.utilisateurCurrent
 import mg.pearl.e_rool.ui.theme.AppTheme
 
 @Composable
@@ -140,6 +142,8 @@ fun Connexion(
                         if (mAdresseEmail.value== document.data["adresseEmail"] && mPassword.value== document.data["motDePasse"]){
                             idUser.idUserCurrent=document.id
                             onConnexionButtonClicked()
+
+                            getDataUserCurrentFromFireBase(mContext, utilisateurCurrent = utilisateurCurrent)
                             Toast.makeText(mContext ,"Authentification avec succès", Toast.LENGTH_SHORT ).show()
                             dataNoExiste=true
                             break

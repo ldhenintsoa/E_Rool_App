@@ -10,7 +10,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import mg.pearl.e_rool.sceen.*
+import mg.pearl.e_rool.screen.*
 import mg.pearl.e_rool.ui.theme.AppTheme
 import mg.pearl.e_rool.ui.theme.Orientation
 enum class EroolScreen{
@@ -19,7 +19,7 @@ enum class EroolScreen{
     CreerCompte2,
     CreerCompte3,
     Connexion,
-    Accueil
+    Home
 }
 
 
@@ -76,7 +76,7 @@ fun E_roolApp(modifier: Modifier = Modifier){
             {
                 if (AppTheme.orientation == Orientation.Portrait){
                     Connexion(
-                        onConnexionButtonClicked = {navController.navigate(EroolScreen.Accueil.name)},
+                        onConnexionButtonClicked = {navController.navigate(EroolScreen.Home.name)},
                         onMotdepasseOublierClicked = {},
                         modifier = Modifier.fillMaxSize())
                 }
@@ -149,7 +149,7 @@ fun E_roolApp(modifier: Modifier = Modifier){
 
                 if (AppTheme.orientation == Orientation.Portrait) {
                     CreerCompteScreen3(
-                        onContinuButtonClicked = {navController.navigate(EroolScreen.Accueil.name)},
+                        onContinuButtonClicked = {navController.navigate(EroolScreen.Connexion.name)},
                         onBackButtonCliked = {navController.navigateUp()},
                         modifier = Modifier.fillMaxSize()
                     )
@@ -162,7 +162,7 @@ fun E_roolApp(modifier: Modifier = Modifier){
                     )
                     {
                         CreerCompteScreen3(
-                            onContinuButtonClicked = {navController.navigate(EroolScreen.Accueil.name)},
+                            onContinuButtonClicked = {navController.navigate(EroolScreen.Connexion.name)},
                             onBackButtonCliked = {navController.navigateUp()},
                             modifier = Modifier
                                 .fillMaxHeight()
@@ -175,9 +175,10 @@ fun E_roolApp(modifier: Modifier = Modifier){
                 }
             }
 
-            composable(route = EroolScreen.Accueil.name)
+            composable(route = EroolScreen.Home.name)
             {
-                Accueil(modifier=Modifier.fillMaxSize())
+                //Home(modifier=Modifier.fillMaxSize())
+                Home()
 
             }
         }
